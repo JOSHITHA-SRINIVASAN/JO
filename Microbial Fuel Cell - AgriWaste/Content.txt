@@ -1,0 +1,18 @@
+Waste to Watts — Microbial Fuel Cell (MFC)
+1. Project Overview
+
+I designed a Microbial Fuel Cell (MFC) — a bio-electrochemical system that generates usable electricity by harnessing the metabolic activity of bacteria digesting agricultural waste. The product's goal was to convert an otherwise low-value waste stream into a continuous, low-power electrical current through a closed-loop, three-chamber system.
+
+2. Development & Technical Challenges
+
+The core engineering challenge was designing a structure that kept three distinct chemical environments working together without contaminating one another. The system is built around three integrated parts:
+
+Anode chamber — sealed and kept completely oxygen-free, where exoelectrogenic bacteria digest agricultural waste, stripping electrons from the organic matter and releasing protons (H⁺) as a byproduct. The freed electrons are captured by a conductive anode electrode and routed through an external wire to generate usable current.
+Proton Exchange Membrane (PEM) — acts as a selective gatekeeper, allowing positively charged protons to pass through to the cathode chamber while strictly blocking oxygen from entering the anode side, which is essential to keeping the bacteria alive.
+Cathode chamber — kept oxygen-rich, where the arriving electrons and protons recombine with atmospheric oxygen to complete the circuit, producing harmless water (H₂O) as the only byproduct and continuously pulling current through the system.
+
+The main design difficulty was maintaining strict fluid and gas isolation between the anaerobic and aerobic sides of the system while still positioning the electrodes close enough for efficient electron harvesting — two requirements that pull the design in opposite directions.
+
+3. Learning Outcome
+
+Designing this closed-loop bioenergy system gave me deep insight into bio-electrochemical product development. I gained practical experience in structural architecture and environmental isolation, integrating an anaerobic anode chamber, a PEM, and an aerobic cathode chamber into a single cohesive unit. Through this project, I learned how to maintain strict fluid and gas isolation to keep bacteria in an oxygen-free state, while optimizing electrode placement for efficient electron harvesting. Ultimately, this project let me bridge biology and engineering — translating micro-organism metabolism into a predictable, usable electrical current.
