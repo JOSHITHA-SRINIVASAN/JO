@@ -1,0 +1,16 @@
+Autonomous Rover Team — Science Cabinet
+1. Project Overview
+
+As part of the Ad-Astra Autonomous Rover Team, I was responsible for designing and fabricating the rover's science cabinet — a precision-engineered enclosure built to house and protect the rover's scientific instruments during competition. The cabinet needed to secure complex, sensitive equipment under field conditions while staying lightweight and compact enough to fit within the rover's overall chassis envelope. It played a direct role in the successful execution of the team's science tasks in competition.
+
+2. Development & Technical Challenges
+
+The cabinet was designed end-to-end in SolidWorks, following DFMA (Design for Manufacturing and Assembly) principles from the earliest concept stage. Material selection was a key early decision: I chose 304-grade stainless steel at 0.8 mm thickness for its corrosion resistance, low mass, and compatibility with laser cutting and bending — all critical given the fabrication methods available to the team.
+
+The main design challenge was balancing two competing constraints: maximizing usable internal space for mounting multiple scientific instruments, while keeping the structure rigid and secure enough to survive vibration, handling, and field conditions during competition. This meant iterating on panel layout and mounting points until the cabinet achieved both efficient space utilization and secure, stable instrument mounting — without adding unnecessary weight or complexity to the manufacturing process.
+
+3. Learning Outcome
+
+This project gave me hands-on, practical exposure to product development from concept to fabrication. I developed proficiency in SolidWorks Sheet Metal, working with bend allowances, K-factors, and flat-pattern generation for precision sheet metal enclosures. It also deepened my understanding of Design for Manufacturing (DFM) — specifically how to design around real manufacturing constraints, optimize tolerances, minimize material waste, and simplify bending and assembly steps rather than designing in isolation from how the part would actually be built.
+
+Beyond the design process itself, I gained practical material knowledge of SS304 — evaluating its structural rigidity, corrosion resistance, and durability against the demands of rover operating conditions and the realities of fabrication.
