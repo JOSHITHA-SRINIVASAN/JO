@@ -1,0 +1,20 @@
+Autonomous Rover Team — Wheel Design
+1. Project Overview
+
+I was responsible for engineering the rover's wheels from the ground up, with the goal of maximizing mobility, traction, and durability across varied and unpredictable terrain. Rather than relying on traditional rigid wheel construction, I used advanced additive manufacturing techniques — 3D printing and Selective Laser Sintering — paired with Thermoplastic Polyurethane (TPU) tires, allowing wheel stiffness to be structurally tuned through geometry rather than material thickness alone.
+
+2. Development & Technical Challenges
+
+The wheel design went through two major iterations, each responding directly to a performance problem found in the previous version.
+
+Iteration 1 — Wave Tread Pattern: My first design used a wave tread pattern, which delivered strong forward thrust, reduced straight-line slip, and improved lateral grip. Its geometry also provided a natural self-cleaning effect, expelling loose dust as the wheel rotated. However, testing revealed a critical flaw: uneven point-load distribution caused the wheel to sink more than desired in deep, loose sand — undermining its usefulness on soft terrain.
+
+Iteration 2 — Transverse Rib Pattern: To resolve the sinkage problem, I redesigned the tread into a wide transverse rib pattern optimized for flotation and propulsion efficiency in fine soils. Widening the terrain contact area distributed the rover's weight more uniformly, drastically cutting sinkage. As a functional benefit, the wide ribs also mechanically scooped and pushed soil backward as the wheel rotated, generating the higher forward reaction force needed to maximize net traction.
+
+This iterative process — identifying a specific failure mode (sinkage) and redesigning the tread geometry specifically to solve it — was the central technical challenge of the project.
+
+3. Learning Outcome
+
+This project gave me extensive hands-on experience in Design for Additive Manufacturing (DFAM), bridging complex CAD models with physical production using flexible TPU filaments. I developed strong proficiency in slicer software configuration, learning to tune parameters like retraction speed and print temperature to solve production issues such as stringing and poor bed adhesion.
+
+By studying the properties of elastomeric materials, I learned to balance TPU's key advantages — high impact absorption and structural flexibility — against its fabrication constraints. Ultimately, this let me strategically tune the relationship between internal infill density/geometry and physical part compliance, to engineer a high-performance, field-ready rover wheel.
