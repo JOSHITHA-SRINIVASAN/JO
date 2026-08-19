@@ -1,0 +1,20 @@
+1. Project Overview
+As the Mechanical Subsystem Co-Lead for our student-built autonomous rover team, I was responsible for engineering and directing core mechanical assemblies from the ground up, with the goal of maximizing mobility, structural integrity, and reliability across varied terrain. Operating within a multidisciplinary environment, I balanced high-level subsystem leadership with hands-on development—focusing on optimizing physical hardware, managing component weight envelopes, and ensuring seamless integration across the rover's mechanical architecture.
+
+2. Development & Technical Challenges
+Guiding the mechanical subsystem required tackling complex design and manufacturing hurdles through rapid, iterative prototyping:
+
+Mobility & Structural Optimization: Engineered critical rover assemblies (such as custom wheel and structural enclosures) to maximize traction, durability, and space utilization while keeping total system weight low.
+
+Iterative Problem-Solving: Led design revisions to address real-world performance flaws found during testing—such as modifying tread geometries to eliminate deep-sand sinkage or refining panel layouts to improve structural rigidity against field vibrations.
+
+Material & Manufacturing Constraints: Balanced competing constraints between maximizing internal volume or contact area, and keeping structures secure enough to survive competition environments without adding unnecessary manufacturing complexity.
+
+3. Leadership & Learning Outcomes
+This project provided extensive, practical exposure to product development from concept to fabrication, blending technical execution with team leadership:
+
+Design for Manufacturing & Assembly (DFMA): Developed strong proficiency in designing around real manufacturing constraints—optimizing tolerances, minimizing material waste, and simplifying assembly steps.
+
+Advanced Prototyping: Gained hands-on experience bridging complex CAD models with physical production, utilizing techniques like Selective Laser Sintering, laser cutting, bending, and elastomeric material tuning (such as TPU filaments) to achieve field-ready performance.
+
+Subsystem Leadership: Coordinated mechanical development cycles, aligned design choices with broader team requirements, and ensured functional reliability under field conditions.
