@@ -61,8 +61,8 @@
           <img src="images/cab_cad.jpg" alt="Science cabinet — SolidWorks CAD">
         </div>
         <div style="margin-top:6px;">
-          <div class="img-box" style="aspect-ratio:16/9;" onclick="lb(this)">
-            <img src="images/cab_photo.jpg" alt="Science cabinet — fabricated">
+          <div class="img-box contain" style="aspect-ratio:3/4;background:var(--surface);" onclick="lb(this)">
+            <img src="images/cab_photo.jpg" alt="Joshitha drilling — science cabinet fabrication">
           </div>
         </div>
         <p style="font-family:var(--mono);font-size:10px;color:var(--dim);margin-top:6px;letter-spacing:.06em;">SolidWorks CAD (top) · Fabricated assembly (bottom)</p>
@@ -207,7 +207,7 @@
 
     <!-- Full width 4-photo grid -->
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-bottom:36px;">
-      <div class="img-box" style="aspect-ratio:16/10;" onclick="lb(this)"><img src="images/rover1.jpg" alt="Rover at IRC 2026"></div>
+      <div class="img-box" style="aspect-ratio:16/10;" onclick="lb(this)"><img src="images/rover1.jpg" alt="Rover during build — lab session"></div>
       <div class="img-box" style="aspect-ratio:16/10;" onclick="lb(this)"><img src="images/rover2.jpg" alt="Rover mechanism detail"></div>
       <div class="img-box" style="aspect-ratio:16/10;" onclick="lb(this)"><img src="images/rover3.jpg" alt="Rover build"></div>
       <div class="img-box" style="aspect-ratio:16/10;" onclick="lb(this)"><img src="images/rover4.jpg" alt="Rover in field"></div>
@@ -275,7 +275,7 @@
         </div>
         <div style="margin-top:16px;padding:20px 22px;background:var(--forest);border-radius:0;">
           <p style="font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin-bottom:10px;">How it works</p>
-          <p style="font-size:.88rem;color:rgba(253,252,249,.65);line-height:1.75;font-weight:300;">Bacteria in sealed anode digest agri-waste → electrons travel through external wire as current → protons pass through PEM → combine with O₂ in cathode → H₂O only byproduct. Continuous, clean power from waste.</p>
+          <p style="font-size:.88rem;color:rgba(253,252,249,.65);line-height:1.75;font-weight:300;">Bacteria in the sealed anode digest agri-waste, stripping electrons → electrons flow through external wire as usable current → protons (H⁺) pass through PEM → at the oxygen-rich cathode, electrons + protons recombine with O₂ → H₂O only byproduct. Zero fuel cost. Zero harmful emissions.</p>
         </div>
       </div>
 
@@ -295,18 +295,21 @@
 
         <div class="proj-section">Project Overview</div>
         <div class="proj-body">
-          <p>I designed a Microbial Fuel Cell (MFC) — a bio-electrochemical system that generates usable electricity by harnessing the metabolic activity of bacteria digesting agricultural waste. The product converts an otherwise low-value waste stream into a continuous, low-power electrical current through a closed-loop, three-chamber system.</p>
+          <p>I designed a Microbial Fuel Cell (MFC) — a bio-electrochemical system that generates usable electricity by harnessing the metabolic activity of bacteria digesting agricultural waste. The product's goal was to convert an otherwise low-value waste stream into a continuous, low-power electrical current through a closed-loop, three-chamber system.</p>
         </div>
 
         <div class="proj-section">Development &amp; Technical Challenges</div>
         <div class="proj-body">
-          <p>The core engineering challenge was designing a structure that kept three distinct chemical environments working together without contaminating one another. The anode chamber is sealed and kept oxygen-free, where exoelectrogenic bacteria digest agricultural waste, stripping electrons from organic matter. A Proton Exchange Membrane acts as a selective gatekeeper, allowing protons to pass while blocking oxygen. The cathode chamber completes the circuit, producing only water as a byproduct.</p>
-          <p>The main design difficulty was maintaining strict fluid and gas isolation between the anaerobic and aerobic sides while positioning electrodes close enough for efficient electron harvesting — two requirements that pull the design in opposite directions.</p>
+          <p>The core engineering challenge was designing a structure that kept three distinct chemical environments working together without contaminating one another. The system is built around three integrated parts:</p>
+          <p><strong>Anode chamber</strong> — sealed and kept completely oxygen-free, where exoelectrogenic bacteria digest agricultural waste, stripping electrons from organic matter and releasing protons (H⁺). The freed electrons are captured by a conductive anode electrode and routed through an external wire to generate usable current.</p>
+          <p><strong>Proton Exchange Membrane (PEM)</strong> — acts as a selective gatekeeper, allowing positively charged protons to pass through to the cathode while strictly blocking oxygen from entering the anode side — essential to keeping the bacteria alive.</p>
+          <p><strong>Cathode chamber</strong> — kept oxygen-rich, where arriving electrons and protons recombine with atmospheric oxygen, producing harmless water (H₂O) as the only byproduct and continuously pulling current through the system.</p>
+          <p>The main design difficulty was maintaining strict fluid and gas isolation between the anaerobic and aerobic sides while still positioning electrodes close enough for efficient electron harvesting — two requirements that pull the design in opposite directions.</p>
         </div>
 
         <div class="proj-section">Learning Outcome</div>
         <div class="proj-body">
-          <p>This project let me bridge biology and engineering — translating micro-organism metabolism into a predictable, usable electrical current. I gained practical experience in structural architecture and environmental isolation, integrating an anaerobic anode chamber, a PEM, and an aerobic cathode chamber into a single cohesive unit.</p>
+          <p>Designing this closed-loop bioenergy system gave me deep insight into bio-electrochemical product development. I gained practical experience in structural architecture and environmental isolation — integrating an anaerobic anode chamber, a PEM, and an aerobic cathode chamber into a single cohesive unit. I learned how to maintain strict fluid and gas isolation to keep bacteria in an oxygen-free state, while optimizing electrode placement for efficient electron harvesting. This project let me bridge biology and engineering — translating micro-organism metabolism into a predictable, usable electrical current.</p>
         </div>
 
         <div class="tags">
@@ -386,8 +389,8 @@
             <p style="font-family:var(--mono);font-size:10px;color:var(--dim);margin-top:4px;letter-spacing:.06em;">View 1</p>
           </div>
           <div>
-            <div class="img-box" style="aspect-ratio:4/3;" onclick="lb(this)"><img src="images/onion_p2.jpg" alt="Onion storage view 2"></div>
-            <p style="font-family:var(--mono);font-size:10px;color:var(--dim);margin-top:4px;letter-spacing:.06em;">View 2</p>
+            <div class="img-box contain" style="aspect-ratio:3/4;background:var(--surface);" onclick="lb(this)"><img src="images/onion_p2.jpg" alt="Joshitha working on onion storage system"></div>
+            <p style="font-family:var(--mono);font-size:10px;color:var(--dim);margin-top:4px;letter-spacing:.06em;">Fabrication work</p>
           </div>
         </div>
       </div>
@@ -416,6 +419,7 @@
       <div class="gitem" onclick="lb(this)"><img src="images/g7.jpg" alt="Rover detail"></div>
       <div class="gitem" onclick="lb(this)"><img src="images/g8.jpg" alt="Competition day"></div>
       <div class="gitem" onclick="lb(this)"><img src="images/g9.jpg" alt="Rover in field"></div>
+      <div class="gitem" onclick="lb(this)"><img src="images/g_table.jpg" alt="Robotic arm, end-effector and deep soil sampling system"></div>
     </div>
   </div>
 </section>
@@ -430,7 +434,7 @@
   <div class="wrap site-footer__inner">
     <span class="footer-copy">© 2026 Joshitha Srinivasan — Sri Sairam Engineering College, Chennai</span>
     <ul class="footer-links">
-      <li><a href="mailto:sec23mu048@sairamtap.edu.in">sec23mu048@sairamtap.edu.in</a></li>
+      <li><a href="mailto:joshithasrinivasan2221@gmail.com">joshithasrinivasan2221@gmail.com</a></li>
       <li><a href="tel:+919655521166">+91 96555 21166</a></li>
     </ul>
   </div>
